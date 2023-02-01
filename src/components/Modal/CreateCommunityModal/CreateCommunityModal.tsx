@@ -55,7 +55,7 @@ const CreateCommunityModal: React.FC<CreateCommunityModalProps> = ({
   ) => {
     setCommunityType(event.target.name);
   };
-
+// creating the community.
   const handleCreateCommunity = async () => {
     if (nameError) setNameError("");
     const format = /^[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$/;
